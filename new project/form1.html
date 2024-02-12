@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="inde.css" >
+</head>
+<body>
+    <h1>Register </h1>
+    <form action="backend.py">
+        <div>
+            Name : <input type="text" name="MyName">
+        </div>
+        <br>
+        <div>
+            LastName : <input type="text" name="MyLast">
+        </div>
+        <br>
+        <div>
+            Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name ="myGender">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name = "MyEmail">
+        </div>
+
+        <br>
+        <div>
+            Date : <input type="date" name="MyDate" >
+        </div>
+        <br>
+        <div>
+            Stud GRNO : <input type="number" name = "MyNumber">
+        </div>
+        <br>
+        <div>
+            Courses : <input type="text" name="myCourse">
+        </div>
+        <br>
+        <div>
+            CGPA :<input type="CGPA" name="Mycgpa">
+        </div>
+        <br>
+        <div>
+           Are you eligible for this Courses?: <input type="checkbox" value="MyEligible" >
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset Now">
+            <input type="submit" value="Submit Now">
+
+        </div>
+    </form>
+</body>
+</html>

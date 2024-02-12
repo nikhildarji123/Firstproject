@@ -1,0 +1,56 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 8px;
+    
+}
+body{
+    background: url("img/gaming\ logo\ The\ Power\ of\ a\ Great\ Logo.webp");
+    background-size: 1550px;
+
+}
+
+/* Apply styles to form headings */
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+/* Apply styles to form input fields */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="checkbox"],
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+div{
+    color: rgb(170, 255, 127);
+}
+
+/* Apply styles to form submit button */
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #af724c;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style hover effect for buttons */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #5145a0;
+}
+
+
